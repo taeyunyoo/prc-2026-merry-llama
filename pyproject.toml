@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prc-2026-merry-llama"
+version = "0.1.0"
+description = "Reproducible PRC 2026 taxi-out prediction pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2,<3",
+    "pyarrow>=15",
+    "tzdata>=2024.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
