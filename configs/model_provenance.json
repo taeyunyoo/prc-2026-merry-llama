@@ -1,0 +1,24 @@
+{
+  "method": "v52 + frozen v54 + frozen v55",
+  "source_sha256": {
+    "sources/github/github/v52/02_code/01_train_and_submit.py": "f1a5c6a415e426cfa738a0c9fa647080cedb23c8f02c0657d62ad1910c111f81",
+    "qa_foundation/v50_extracted.py": "f6011d969e46aea3e95dbbdd9d9af47a00388379e80311dada094a635017c0f5",
+    "sources/github/github/v21_04_add_stand_runway_median.py": "1aaa3c3b33635d62ec492b09ad89cb8fb36ed7b18cb4ea56f8130505f11b8ca1",
+    "sources/github/github/v42/02_lirf_type_submission.py": "cba02597e9b0cfa607e99d6909fe147af97971e30c24af45551021c00215c01c",
+    "qa_foundation/v54_extracted.py": "db4c3746b5008bb9161e9b4f4540784e71114b3726c776ac9bc6c6d8d597f113",
+    "qa_foundation/v55_extracted.py": "e8dbb1d380080ae8e0b4abfb25f261beb2cbd6f37b265e58edf9720f6c1a5582"
+  },
+  "rules_sha256": {
+    "v54_category95_rules.csv": "cef404a827a556608f7cc7095f6672d92281281530769130bedf84fd160a97db",
+    "v55_category95_rules.csv": "e5125ffe0b828a40d54de6893a31dc01ca1a71195608b71f6090daf47f078498"
+  },
+  "source_environment": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.0",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "scikit-learn": "1.7.2"
+  },
+  "scope": "Full-year refit with frozen tree counts; no new hyperparameter/rule selection"
+}
