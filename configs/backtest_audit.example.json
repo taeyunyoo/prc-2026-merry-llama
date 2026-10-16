@@ -1,0 +1,14 @@
+{
+  "contract": "prc2026.retrospective_backtest.v1",
+  "reviewer": "",
+  "model_selection": "published_frozen_exploratory",
+  "base_sha256": {},
+  "checks": {
+    "authorized_inputs": {"approved": false, "evidence": ""},
+    "metadata_train_only": {"approved": false, "evidence": ""},
+    "external_reference_asof": {"approved": false, "evidence": ""},
+    "weather_preparation_reviewed": {"approved": false, "evidence": ""},
+    "distance_provenance_reviewed": {"approved": false, "evidence": ""},
+    "retrospective_batch_features_accepted": {"approved": false, "evidence": ""}
+  }
+}
