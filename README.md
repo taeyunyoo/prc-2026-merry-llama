@@ -147,3 +147,13 @@ To run the small implementation tests (not full model training):
 ```bash
 python -m unittest discover -s tests -v
 ```
+
+
+## Historical backtesting
+
+An isolated, audit-gated January–October 2025 fit / November–December 2025
+retrospective experiment is available through `scripts/backtest.py`. See
+[the protocol and leakage audit](docs/BACKTEST.md) before supplying inputs. It
+rebuilds training-only reference state, disables the published category rules,
+and leaves the accepted full-year workflow unchanged. No historical RMSE has
+been calculated; existing validation exports alone do not establish isolation.
